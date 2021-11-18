@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { NavLink, withRouter } from "react-router-dom";
 import { menuLists } from "./MenuList.js";
+import { gsap } from "gsap";
 import logo from "../../assets/manchester-logo.png";
 import "./navbar.component.css";
 function NavBar({ history }) {
@@ -30,9 +31,9 @@ function NavBar({ history }) {
       <nav id="main-nav">
         <div className="logo-manchester">
           <img className="logo" src={logo} alt="manchester-logo" />
-        </div>
-        <div className="logo-headline">
-          <p>manchester city bangladesh</p>
+          <div className="logo-headline">
+            <p>manchester city bangladesh</p>
+          </div>
         </div>
         <ul
           className={
