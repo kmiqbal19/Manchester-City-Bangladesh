@@ -1,22 +1,32 @@
 export const imageSlides = [
   {
     sourceImage:
-      "https://images.unsplash.com/photo-1568194157720-8bbe7114ebe8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80",
+      "https://i.ibb.co/PM9P8pc/Whats-App-Image-2021-11-21-at-22-14-02.jpg",
     title: "",
   },
   {
     sourceImage:
-      "https://images.unsplash.com/photo-1581812351823-ac0429f18d55?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+      "https://i.ibb.co/tY5BrtK/Whats-App-Image-2021-11-21-at-22-18-00.jpg",
     title: "",
   },
   {
     sourceImage:
-      "https://images.unsplash.com/photo-1634276356622-5d4d46eac20b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "https://i.ibb.co/KbLNQ8h/Whats-App-Image-2021-11-21-at-22-19-05.jpg",
     title: "",
   },
   {
     sourceImage:
-      "https://images.unsplash.com/photo-1473042904451-00171c69419d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1199&q=80",
+      "https://i.ibb.co/ZVKzqZy/Whats-App-Image-2021-11-21-at-22-20-03.jpg",
+    title: "",
+  },
+  {
+    sourceImage:
+      "https://i.ibb.co/FwV4p75/Whats-App-Image-2021-11-21-at-22-35-37.jpg",
+    title: "",
+  },
+  {
+    sourceImage:
+      "https://i.ibb.co/LQQ0DZs/Whats-App-Image-2021-11-21-at-22-43-13.jpg",
     title: "",
   },
 ];
