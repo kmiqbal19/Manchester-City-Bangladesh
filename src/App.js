@@ -11,6 +11,7 @@ function App() {
         <NavBar />
         <div className="App">
           <Switch>
+            <Route exact path="/" component={HomepageComponent} />
             <Route exact path="/home" component={HomepageComponent} />
           </Switch>
         </div>

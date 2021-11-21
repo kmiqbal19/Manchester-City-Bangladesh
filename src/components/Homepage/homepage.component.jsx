@@ -1,11 +1,10 @@
 import React from "react";
 import "./homepage.component.css";
-
+import Carousel from "../carousel.component/carousel.component";
 function HomepageComponent() {
   return (
     <div className="homepage">
-      Homepage
-      <h1>MANCHESTER CITY BANGLADESH</h1>
+      <Carousel />
     </div>
   );
 }
