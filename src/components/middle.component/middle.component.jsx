@@ -8,18 +8,29 @@ function MiddleComponent() {
           OFFICIAL SUPPORTERS CLUB BANGLADESH - CHITTAGONG BRANCH
         </p>
         <p className="text-middle text-middle-1">
-          With over 300 branches worldwide, fans can proudly come together and
-          share unforgettable City moments whilst cheering on the Club they love
-          from wherever they are based.
+          We are one of the 300+ Supporters Club of Manchester City and very
+          active among the clubs in Bangladesh.It was organized in 2021.We do
+          match screening and quiz contests in every match.More than 1000 of our
+          members are active on Facebook and more than 30 of them are membership
+          card holders.
         </p>
         <p className="text-middle text-middle-2">
-          Our global network of branches stretches from Chadderton to Cairo,
-          with 30 new branches being welcomed into the Official Supporters Club
-          Family during last season including Bangladesh, India, Pakistan.
+          We have our official Facebook, Instagram and Twitter account to
+          interact our supporters.Our mission to take this official branch at
+          highest level in Bangladesh and globally.
         </p>
         <p className="text-middle text-middle-3">
-          Find your nearest Official Supporters Club via our map below or start
-          a branch in your location today to enjoy exclusive benefits.
+          If you want to be part of this supporters club branch, get the updated
+          news of every match,get membership card and all benifits of
+          membership.
+          <a
+            className="join-link"
+            href="https://www.mancity.com/supporters-clubs/chittagong-2645"
+          >
+            {" "}
+            Join Here{" "}
+          </a>
+          {/* <i class="fas fa-location-arrow"></i> */}
         </p>
       </div>
       <div className="middle-image">

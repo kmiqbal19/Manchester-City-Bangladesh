@@ -74,3 +74,10 @@ div.middle-img-description p {
   top: 68%;
   color: var(--tertiary-color);
 }
+.join-link {
+  color: blue;
+}
+/* .fa-location-arrow {
+  font-size: calc(0.8vw + 1rem);
+  color: var(--secondary-color);
+} */

@@ -1,0 +1,41 @@
+section.service-section {
+  width: 100%;
+  height: calc(500px + 7vh);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+div.service-item {
+  text-align: center;
+  padding: calc(1vw + 3rem);
+  border: 1px solid rgb(207, 207, 207);
+  border-radius: 1px;
+  margin: calc(1vw + 1rem);
+  user-select: none;
+  transition: border 0.5s ease-in-out;
+}
+div.service-item:hover {
+  border: 1px solid rgb(78, 78, 78);
+}
+.fa-trophy,
+.fa-camera-retro,
+.fa-flag {
+  font-size: calc(5rem + 1vw);
+  padding: calc(1.5vw + 1rem);
+  color: var(--quinary-color);
+}
+.service-text {
+  font-size: calc(1vw + 1rem);
+  text-align: left;
+}
+p.service-text a {
+  color: var(--secondary-color);
+  font-size: calc(1.5vw + 1rem);
+
+  font-weight: bold;
+}
+p.service-text a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
