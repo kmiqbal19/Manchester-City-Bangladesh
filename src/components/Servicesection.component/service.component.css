@@ -1,10 +1,25 @@
 section.service-section {
   width: 100%;
   height: calc(500px + 7vh);
-
+  margin-top: calc(5vh + 4rem);
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+section.service-section h1 {
+  font-size: calc(3vw + 1rem);
+  text-align: center;
+  padding: 2rem;
+  position: relative;
+}
+section.service-section h1::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 30%;
+  height: 5px;
+  background-color: var(--secondary-color);
 }
 div.service-item {
   text-align: center;
@@ -14,6 +29,7 @@ div.service-item {
   margin: calc(1vw + 1rem);
   user-select: none;
   transition: border 0.5s ease-in-out;
+  box-shadow: 3px 3px 15px rgb(177, 174, 174);
 }
 div.service-item:hover {
   border: 1px solid rgb(78, 78, 78);
