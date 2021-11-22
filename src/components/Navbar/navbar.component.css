@@ -12,7 +12,7 @@
   left: 0;
   top: 0;
   z-index: 4;
-  background-color: #6caddf;
+  background-color: var(--primary-color);
   /* background-color: #00285e; */
 }
 div.logo-manchester {
@@ -29,7 +29,7 @@ div.logo-manchester {
 }
 div.logo-headline {
   text-transform: uppercase;
-  color: #00285e;
+  color: var(--secondary-color);
   font-size: calc(3rem + 2vh);
   font-family: "Ostwald", sans-serif;
   margin-right: 3rem;
@@ -51,7 +51,7 @@ div.logo-headline {
   padding-bottom: 1rem;
 }
 .nav-list {
-  color: #00285e;
+  color: var(--secondary-color);
   text-decoration: none;
 }
 .nav-list--item::before {
@@ -67,7 +67,7 @@ div.logo-headline {
   transition: all 0.45s ease-in-out;
 }
 .nav-list:hover {
-  color: #00285e;
+  color: var(--secondary-color);
 }
 
 .nav-list--item:hover::before {

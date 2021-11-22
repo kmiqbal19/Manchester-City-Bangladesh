@@ -7,6 +7,9 @@
 }
 :root {
   font-size: 62.5%;
+  --primary-color: #6caddf;
+  --secondary-color: #00285e;
+  --tertiary-color: #ffffff;
 }
 body {
   margin: 0;

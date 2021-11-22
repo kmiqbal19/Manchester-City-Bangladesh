@@ -21,7 +21,7 @@ div.slide-image img {
   top: 45%;
   right: 50px;
   font-size: 5rem;
-  color: white;
+  color: var(--tertiary-color);
   cursor: pointer;
   user-select: none;
 }
@@ -29,7 +29,7 @@ div.slide-image img {
   position: absolute;
   cursor: pointer;
   user-select: none;
-  color: white;
+  color: var(--tertiary-color);
   top: 45%;
   left: 50px;
   font-size: 5rem;
