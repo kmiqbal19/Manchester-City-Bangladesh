@@ -5,15 +5,15 @@ function ChairmanSection() {
     <section className="chairman-section">
       <div className="chairman-speech">
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to.
+          Our main objective is to build a strong club community through, where
+          any of our Citizens can get all kind of opportunities and establishing
+          a deep relationship among all the fans by publishing City related news
+          and informations over social media.
         </p>
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s.
+          We want to move forward with the determination to do something better
+          in the future.the future will be planned keeping in mind the
+          advantages and disadvantages of the fans.
         </p>
       </div>
       <div className="chairman-image__container">
