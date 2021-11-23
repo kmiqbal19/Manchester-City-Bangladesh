@@ -1,0 +1,41 @@
+section.chairman-section {
+  width: 100%;
+  height: 60vh;
+  background-color: var(--secondary-color);
+  display: flex;
+  align-items: center;
+}
+div.chairman-speech {
+  width: 60%;
+  height: 100%;
+  padding: 6rem 2rem 1rem;
+}
+div.chairman-speech p {
+  color: var(--tertiary-color);
+  font-size: calc(1vw + 1rem);
+  padding: 1rem 5rem;
+}
+div.chairman-image__container {
+  width: 40%;
+
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+div.chairman-image__container img {
+  width: calc(280px + 3vw);
+  height: calc(280px + 3vw);
+  margin-bottom: 1rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.chairman-name {
+  color: var(--tertiary-color);
+  font-size: 2rem;
+}
+.chairman-text {
+  color: var(--tertiary-color);
+  font-size: 1.5rem;
+}

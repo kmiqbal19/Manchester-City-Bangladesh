@@ -1,9 +1,21 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./carousel.component.css";
 import { imageSlides } from "./imageSlides";
 function Carousel() {
   const [current, setCurrent] = useState(0);
   const length = imageSlides.length;
+  // useEffect(() => {
+  //   setInterval(() => {
+  //     if (current < length) {
+  //       setCurrent(current + 1);
+  //     }
+  //   }, 1000);
+  //   return () => {
+  //     if (current === length) {
+  //       clearInterval();
+  //     }
+  //   };
+  // }, [current, length]);
   if (!Array.isArray(imageSlides) || length <= 0) return null;
   const nextSlide = () => {
     setCurrent(current === length - 1 ? 0 : current + 1);

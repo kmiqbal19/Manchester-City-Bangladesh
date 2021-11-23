@@ -14,7 +14,7 @@ function ServiceSection() {
       <div className="service-item camera">
         <i class="fas fa-camera-retro"></i>
         <p className="service-text">
-          <NavLink to="/gallery">#MCFCBD GALLERY</NavLink> simply dummy text of
+          <NavLink to="/gallery">#MCFCBD GALLERY </NavLink> simply dummy text of
           the printing ands.
         </p>
       </div>

@@ -18,7 +18,7 @@ section.service-section h1::before {
   bottom: 0;
   left: 50%;
   width: 30%;
-  height: 5px;
+  height: 7px;
   background-color: var(--secondary-color);
 }
 div.service-item {
@@ -32,7 +32,7 @@ div.service-item {
   box-shadow: 3px 3px 15px rgb(177, 174, 174);
 }
 div.service-item:hover {
-  border: 1px solid rgb(78, 78, 78);
+  border: 2px solid var(--secondary-color);
 }
 .fa-trophy,
 .fa-camera-retro,
@@ -48,7 +48,7 @@ div.service-item:hover {
 p.service-text a {
   color: var(--secondary-color);
   font-size: calc(1.5vw + 1rem);
-
+  text-decoration: none;
   font-weight: bold;
 }
 p.service-text a:hover {
