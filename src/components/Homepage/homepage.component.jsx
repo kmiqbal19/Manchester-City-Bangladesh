@@ -4,7 +4,8 @@ import Carousel from "../carousel.component/carousel.component";
 import MiddleComponent from "../middle.component/middle.component";
 import ServiceSection from "../Servicesection.component/service.component";
 import ChairmanSection from "../ChairmanSection/chairman.component";
-import OpinionCarousel from "../SupporterOpinion/supporters-opinion.component";
+// import OpinionCarousel from "../SupporterOpinion/supporters-opinion.component";
+import SupportersTweet from "../TweetOpinion/tweetopinion.component";
 import Footer from "../Footer/footer.component";
 function HomepageComponent() {
   return (
@@ -13,7 +14,8 @@ function HomepageComponent() {
       <MiddleComponent />
       <ServiceSection />
       <ChairmanSection />
-      <OpinionCarousel />
+      {/* <OpinionCarousel /> */}
+      <SupportersTweet />
       <Footer />
     </div>
   );

@@ -9,7 +9,19 @@ function Footer() {
           alt="goat"
         />
         <img
+          src="https://i.ibb.co/d4pT81Z/Whats-App-Image-2021-11-25-at-22-54-39.jpg"
+          alt="iqbal-IT"
+        />
+        <img
           src="https://i.ibb.co/ZWM73tH/iqbal-Logofor-favicon.png"
+          alt="iqbal-IT"
+        />
+        <img
+          src="https://i.ibb.co/yNLQBCk/Whats-App-Image-2021-11-25-at-23-23-40.jpg"
+          alt="iqbal-IT"
+        />
+        <img
+          src="https://i.ibb.co/jMSJ1K7/Whats-App-Image-2021-11-25-at-23-25-09.jpg"
           alt="iqbal-IT"
         />
       </div>
