@@ -46,7 +46,7 @@ div.logo-headline {
   list-style: none;
   margin-left: calc(1rem + 2vw);
   font-size: calc(1rem + 1vh);
-  /* font-weight: bold; */
+
   position: relative;
   padding-bottom: 1rem;
 }
@@ -86,10 +86,13 @@ div.hamburger {
   display: none;
 }
 
-/* Responsive for 750px */
+/* Responsive for 750px *****************************/
 @media screen and (max-width: 750px) {
   nav#main-nav {
     overflow: hidden;
+  }
+  #main-nav ul li {
+    font-size: 3rem;
   }
   /* Hamburger */
   div.hamburger {
@@ -103,16 +106,12 @@ div.hamburger {
     position: fixed;
     top: 3%;
     right: 6%;
-    /* background-color: green; */
   }
   div.line {
     width: 100%;
 
     background-color: var(--secondary-color);
     transition: all 0.5s ease-in-out;
-    /* position: absolute;
-    right: 2rem;
-    top: 2rem; */
   }
 
   div.line-1 {
@@ -145,8 +144,8 @@ div.hamburger {
     right: -40rem;
     width: 30rem;
     height: 100vh;
-    background-color: rgba(125, 203, 240, 0.671);
-    backdrop-filter: blur(4px);
+    background-color: rgba(125, 204, 240, 0.774);
+    backdrop-filter: blur(7px);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -156,7 +155,7 @@ div.hamburger {
     margin-top: 0;
   }
   ul.nav-list__container.mobile {
-    transform: translateX(-130%);
+    transform: translateX(-120%);
   }
   li.nav-list--item {
     margin-left: 3rem;
@@ -171,5 +170,13 @@ div.hamburger {
   }
   div.logo-headline {
     font-size: calc(1.5rem + 1vh);
+  }
+}
+@media screen and (max-width: 450px) {
+  div.logo-headline {
+    font-size: calc(1.2rem + 1vh);
+  }
+  div.hamburger {
+    top: 4%;
   }
 }

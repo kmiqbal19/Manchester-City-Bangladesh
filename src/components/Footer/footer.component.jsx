@@ -26,18 +26,20 @@ function Footer() {
         />
       </div>
       <div className="footer_bottom">
-        <a href="https://www.facebook.com/ManCityBan">
-          <i class="fab fa-facebook-square"></i>
-        </a>
-        <a href="https://www.instagram.com/mancityban/">
-          <i class="fab fa-instagram"></i>
-        </a>
-        <a href="https://www.twitter.com/mancity17bd">
-          <i class="fab fa-twitter-square"></i>
-        </a>
-        <a href="https://discord.gg/G4RAbH8h">
-          <i class="fab fa-discord"></i>
-        </a>
+        <div>
+          <a href="https://www.facebook.com/ManCityBan">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="https://www.instagram.com/mancityban/">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://www.twitter.com/mancity17bd">
+            <i class="fab fa-twitter-square"></i>
+          </a>
+          <a href="https://discord.gg/G4RAbH8h">
+            <i class="fab fa-discord"></i>
+          </a>
+        </div>
         <p className="copyright">
           {" "}
           &copy; Manchester City Bangladesh Ltd. #MCFCBD - All Rights Reserved
