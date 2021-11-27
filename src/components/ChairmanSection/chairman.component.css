@@ -4,6 +4,7 @@ section.chairman-section {
   background-color: var(--secondary-color);
   display: flex;
   align-items: center;
+  position: relative;
 }
 div.chairman-speech {
   width: 60%;
@@ -38,4 +39,31 @@ div.chairman-image__container img {
 .chairman-text {
   color: var(--tertiary-color);
   font-size: 1.5rem;
+}
+#donation-text {
+  color: red;
+  font-size: 1.5rem;
+}
+#donation-text span {
+  text-decoration: underline;
+  color: var(--primary-color);
+  transition: all 0.4s ease;
+}
+#donation-text span:hover {
+  color: var(--tertiary-color);
+  font-size: 2rem;
+}
+#donation-text span:hover i {
+  color: var(--tertiary-color);
+  font-size: 3rem;
+}
+#donation-text span i {
+  transition: all 0.4s ease;
+  margin-left: 1rem;
+  font-size: 2rem;
+}
+.donation_container {
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
 }

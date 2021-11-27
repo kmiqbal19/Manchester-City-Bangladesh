@@ -24,6 +24,15 @@ function ChairmanSection() {
         <p className="chairman-name">Abir Emon</p>
         <p className="chairman-text">Chairman of ManCity Bangladesh</p>
       </div>
+      <div className="donation_container">
+        <p id="donation-text">
+          TO SUPPORT US DONATE HERE{" "}
+          <span>
+            {/* emonabir10@gmail.com<i class="fab fa-paypal"></i> */}
+            emonabir10@gmail.com<i class="fab fa-cc-paypal"></i>
+          </span>
+        </p>
+      </div>
     </section>
   );
 }
