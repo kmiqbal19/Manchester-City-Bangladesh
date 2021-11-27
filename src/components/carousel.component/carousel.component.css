@@ -48,3 +48,19 @@ div.slide-image img {
 .image-slider__container:hover .fas {
   opacity: 1;
 }
+@media screen and (max-width: 750px) {
+  .fas {
+    opacity: 1;
+  }
+  .fa-chevron-right {
+    right: 25px;
+    font-size: 2rem;
+  }
+  .fa-chevron-left {
+    left: 25px;
+    font-size: 2rem;
+  }
+  .image-slider__container {
+    height: 50vh;
+  }
+}

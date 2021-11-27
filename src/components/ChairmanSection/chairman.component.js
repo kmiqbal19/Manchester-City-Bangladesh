@@ -26,7 +26,7 @@ function ChairmanSection() {
       </div>
       <div className="donation_container">
         <p id="donation-text">
-          TO SUPPORT US DONATE HERE{" "}
+          SUPPORT US BY DONATING HERE{" "}
           <span>
             {/* emonabir10@gmail.com<i class="fab fa-paypal"></i> */}
             emonabir10@gmail.com<i class="fab fa-cc-paypal"></i>

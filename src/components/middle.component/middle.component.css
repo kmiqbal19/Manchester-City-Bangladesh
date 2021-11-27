@@ -81,3 +81,33 @@ div.middle-img-description p {
   font-size: calc(0.8vw + 1rem);
   color: var(--secondary-color);
 } */
+@media screen and (max-width: 750px) {
+  .middle-part {
+    flex-direction: column;
+    height: 100%;
+  }
+  .middle-support {
+    width: 100%;
+    height: 50%;
+  }
+  .headline-middle {
+    font-size: calc(1.5rem + 1.5vw);
+  }
+  .headline-middle::before {
+    width: 10vh;
+    height: 5px;
+  }
+  .middle-image {
+    width: 100%;
+    height: 50%;
+  }
+  .text-middle-1 {
+    padding: 3rem 3rem 1rem;
+  }
+  .text-middle-2 {
+    padding: 1rem 3rem 1rem;
+  }
+  .text-middle-3 {
+    padding: 1rem 3rem 1rem;
+  }
+}

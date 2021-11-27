@@ -7,6 +7,8 @@ div.supporters-tweet h1 {
   position: relative;
   text-align: center;
   margin: 6rem auto 8rem;
+  font-weight: 600;
+  color: var(--secondary-color);
 }
 div.supporters-tweet h1::before {
   content: "";
@@ -44,4 +46,33 @@ div.tweet__container div img {
 div.tweet__container div p {
   font-size: calc(1vw + 1rem);
   color: var(--tertiary-color);
+}
+@media screen and (max-width: 750px) {
+  div.supporters-tweet {
+    width: 100%;
+    height: 60vh;
+  }
+  div.supporters-tweet h1 {
+    margin: 3rem auto 4rem;
+  }
+  div.supporters-tweet h1::before {
+    height: 5px;
+  }
+  div.tweet__container {
+    padding: 4rem;
+  }
+  div.tweet__container div {
+    flex-direction: column;
+    padding: 4rem;
+    box-shadow: 5px 5px 15px grey;
+  }
+  div.tweet__container div img {
+    width: 90px;
+    height: 90px;
+
+    margin: 2rem 3rem;
+  }
+  div.tweet__container div p {
+    font-size: calc(1vw + 1rem);
+  }
 }
