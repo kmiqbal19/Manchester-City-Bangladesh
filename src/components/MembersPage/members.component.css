@@ -29,3 +29,9 @@ div.members-container img {
 div.members-container:hover img {
   transform: scale(1.1);
 }
+@media screen and (max-width: 750px) {
+  div.members-container {
+    width: calc(60vw + 10rem);
+    height: calc(20vh + 10rem);
+  }
+}

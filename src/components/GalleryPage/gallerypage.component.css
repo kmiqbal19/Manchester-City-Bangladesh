@@ -59,3 +59,14 @@ div.image_container-gallery:hover .image-description_gallery {
   color: var(--tertiary-color);
   text-align: center;
 }
+@media screen and (max-width: 750px) {
+  div.image_container-gallery {
+    width: calc(70vw + 8rem);
+  }
+  .image-description_gallery {
+    padding: 5rem;
+  }
+  .image-description_gallery p {
+    font-size: 1.5rem;
+  }
+}

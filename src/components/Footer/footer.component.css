@@ -114,4 +114,8 @@ div.footer_bottom p {
   .fa-facebook-f {
     margin-left: 0rem;
   }
+  #website_built_text a {
+    font-size: 1.2rem;
+    /* text-shadow: none; */
+  }
 }
