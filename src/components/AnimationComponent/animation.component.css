@@ -1,0 +1,36 @@
+div.animation_container {
+  width: 100vw;
+  height: 100%;
+  /* border: 3px solid red; */
+  position: absolute;
+}
+div.player_animation {
+  width: 30vw;
+  height: 40vh;
+  position: inherit;
+  bottom: 0;
+}
+div.player_animation img {
+  width: 100%;
+  height: 100%;
+}
+div.ball_animation {
+  width: 150px;
+  height: 150px;
+  position: inherit;
+  top: 15%;
+}
+div.ball_animation img {
+  width: 100%;
+  height: 100%;
+}
+@media screen and (max-width: 750px) {
+  div.player_animation {
+    width: 40vw;
+    height: 20vh;
+  }
+  div.ball_animation {
+    width: 70px;
+    height: 70px;
+  }
+}
