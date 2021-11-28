@@ -6,9 +6,10 @@ export const membersList = [
   },
   {
     memberImage:
-      "https://i.ibb.co/KN4P3hg/Whats-App-Image-2021-11-21-at-22-10-11.jpg",
-    memberName: "sara",
+      "https://i.ibb.co/JzN2qB2/Whats-App-Image-2021-11-21-at-22-10-08.jpg",
+    memberName: "bony",
   },
+
   {
     memberImage:
       "https://i.ibb.co/D9fcmdr/Whats-App-Image-2021-11-21-at-22-10-12.jpg",
@@ -16,19 +17,21 @@ export const membersList = [
   },
   {
     memberImage:
-      "https://i.ibb.co/JzN2qB2/Whats-App-Image-2021-11-21-at-22-10-08.jpg",
-    memberName: "bony",
+      "https://i.ibb.co/Jr71ZRL/Whats-App-Image-2021-11-21-at-22-10-10.jpg",
+    memberName: "shouvik",
   },
+  {
+    memberImage:
+      "https://i.ibb.co/KN4P3hg/Whats-App-Image-2021-11-21-at-22-10-11.jpg",
+    memberName: "sara",
+  },
+
   {
     memberImage:
       "https://i.ibb.co/3rqccz8/Whats-App-Image-2021-11-21-at-22-10-10-1.jpg",
     memberName: "prince",
   },
-  {
-    memberImage:
-      "https://i.ibb.co/Jr71ZRL/Whats-App-Image-2021-11-21-at-22-10-10.jpg",
-    memberName: "shouvik",
-  },
+
   {
     memberImage:
       "https://i.ibb.co/djRTxt9/Whats-App-Image-2021-11-21-at-22-10-11-1.jpg",

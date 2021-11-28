@@ -4,7 +4,7 @@ div.gallery {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 10rem 2rem;
+  padding: 12rem 2rem;
   background-color: var(--secondary-color);
   /* background-color: #ddd; */
 }
@@ -31,6 +31,7 @@ div.image_container-gallery img {
   width: 100%;
   object-fit: cover;
   transition: filter 0.4s ease;
+  transition: all 0.5s ease-in-out;
 }
 .image-description_gallery {
   position: absolute;
@@ -45,6 +46,10 @@ div.image_container-gallery img {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+div.image_container-gallery:hover img {
+  transform: scale(1.1);
+  transform-origin: center;
 }
 div.image_container-gallery:hover .image-description_gallery {
   transform: scaleY(1);
