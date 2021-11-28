@@ -48,6 +48,10 @@ function Footer() {
         <p className="supporter-mobile_text">
           Supporter Services +49 (0) 1523 627 9890
         </p>
+        <p id="website_built_text">
+          <i class="fas fa-terminal"></i> Developed by{" "}
+          <a href="https://kmiqbal.com/">Iqbal</a>
+        </p>
       </div>
     </section>
   );
