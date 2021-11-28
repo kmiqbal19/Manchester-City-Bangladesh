@@ -6,6 +6,11 @@ export const membersList = [
   },
   {
     memberImage:
+      "https://i.ibb.co/KN4P3hg/Whats-App-Image-2021-11-21-at-22-10-11.jpg",
+    memberName: "sara",
+  },
+  {
+    memberImage:
       "https://i.ibb.co/D9fcmdr/Whats-App-Image-2021-11-21-at-22-10-12.jpg",
     memberName: "rizwan",
   },
@@ -28,11 +33,6 @@ export const membersList = [
     memberImage:
       "https://i.ibb.co/djRTxt9/Whats-App-Image-2021-11-21-at-22-10-11-1.jpg",
     memberName: "sakib",
-  },
-  {
-    memberImage:
-      "https://i.ibb.co/KN4P3hg/Whats-App-Image-2021-11-21-at-22-10-11.jpg",
-    memberName: "sara",
   },
   {
     memberImage:

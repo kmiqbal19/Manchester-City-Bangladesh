@@ -10,8 +10,9 @@ div.gallery {
 }
 div.image_container-gallery {
   padding: 2rem;
-  flex-basis: 30rem;
-  margin: 2rem;
+  width: calc(25vw + 8rem);
+  height: calc(30vh + 8rem);
+  margin: 0rem 1rem;
   flex-grow: 0;
   clip-path: polygon(
     20% 0%,
@@ -40,7 +41,7 @@ div.image_container-gallery img {
   transform: scaleY(0);
   transform-origin: bottom;
   transition: all 0.5s ease-in-out;
-  background-color: rgba(206, 166, 36, 0.445);
+  background-color: rgba(3, 191, 216, 0.445);
   display: flex;
   justify-content: center;
   align-items: center;
