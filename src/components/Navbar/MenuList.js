@@ -7,16 +7,16 @@ export const menuLists = [
     title: "Gallery",
     url: "/gallery",
   },
-  {
-    title: "News",
-    url: "/news",
-  },
+  // {
+  //   title: "News",
+  //   url: "/news",
+  // },
   {
     title: "Members",
-    url: "/about",
+    url: "/members",
   },
   {
-    title: "Contact",
-    url: "/contact",
+    title: "JOIN",
+    url: "/join",
   },
 ];
