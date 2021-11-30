@@ -24,7 +24,7 @@ function AnimationComponent() {
         gsap.fromTo(
           ".player_animation",
           { x: -150 },
-          { x: 850, ease: "ease", duration: 5 }
+          { x: 1050, ease: "ease", duration: 5 }
         );
         gsap.fromTo(
           ".ball_animation",
@@ -50,7 +50,7 @@ function AnimationComponent() {
     <div className="animation_container" ref={animationContainerRef}>
       <div className="player_animation">
         <img
-          src="https://i.ibb.co/0BZYpdN/pngfind-com-manchester-city-logo-png-6231982.png"
+          src="https://i.ibb.co/4JymwRp/kisspng-manchester-city-f-c-football-player-jersey-team-s-sergio-aguero-5b230d52470751-1020443715290.png"
           alt="players"
         />
       </div>

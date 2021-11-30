@@ -12,7 +12,7 @@ export const menuLists = [
   //   url: "/news",
   // },
   {
-    title: "Members",
+    title: "Committee",
     url: "/members",
   },
   {

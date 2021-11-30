@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { NavLink, withRouter } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+import { withRouter } from "react-router-dom";
 import { menuLists } from "./MenuList.js";
 import { gsap } from "gsap";
 import logo from "../../assets/manchester-logo.png";

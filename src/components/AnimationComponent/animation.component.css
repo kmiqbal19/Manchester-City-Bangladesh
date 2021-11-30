@@ -6,7 +6,7 @@ div.animation_container {
 }
 div.player_animation {
   width: 30vw;
-  height: 40vh;
+  height: 60vh;
   position: inherit;
   bottom: 0;
 }
@@ -26,8 +26,8 @@ div.ball_animation img {
 }
 @media screen and (max-width: 750px) {
   div.player_animation {
-    width: 40vw;
-    height: 20vh;
+    width: 45vw;
+    height: 35vh;
   }
   div.ball_animation {
     width: 70px;

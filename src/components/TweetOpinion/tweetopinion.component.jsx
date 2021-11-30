@@ -9,7 +9,7 @@ function SupportersTweet() {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 2500,
     cssEase: "ease",
   };
   return (
@@ -23,9 +23,9 @@ function SupportersTweet() {
               alt="fans_pic"
             />
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum. Lorem is simply dummy text of the printing
-              and typesetting industry. Lorem Ipsum
+              This group is very active and all the members here are very
+              friendly and helpful to each other.I am very happy to be a part of
+              them
             </p>
           </div>
         </div>
@@ -36,9 +36,10 @@ function SupportersTweet() {
               alt="fans_pic"
             />
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum. Lorem Ipsum is simply dummy text of the
-              printing and typesetting industry. Lorem Ipsum
+              We can get all the information of the club from this group. The
+              admins and members here are very informative.There is a lot of fun
+              in match screening here, everyone enjoys it very much and everyone
+              here is like a family member.
             </p>
           </div>
         </div>
@@ -49,9 +50,9 @@ function SupportersTweet() {
               alt="fans_pic"
             />
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum. Lorem Ipsum is simply dummy text of the
-              printing and typesetting industry. Lorem Ipsum
+              MCFCBD is different from every other group.They run this group in
+              a peaceful environment.everyone cares about everyone's opinion and
+              veryone has a friendly relationship between them
             </p>
           </div>
         </div>
@@ -62,9 +63,10 @@ function SupportersTweet() {
               alt="fans_pic"
             />
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum. Lorem Ipsum is simply dummy text of the
-              printing and typesetting industry. Lorem Ipsum
+              Manchester City has a very supportive fanbase in this group than
+              some of other so called supporters club over Bangladesh.Their main
+              goal is to bring together all the City supporters and build a
+              strong big community in future.
             </p>
           </div>
         </div>
@@ -75,9 +77,9 @@ function SupportersTweet() {
               alt="fans_pic"
             />
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum. Lorem Ipsum is simply dummy text of the
-              printing and typesetting industry. Lorem Ipsum
+              Everyone in this community is very friendly so I feel very
+              comfortable joining them. I hope to get to know more citizens in
+              the future.
             </p>
           </div>
         </div>
