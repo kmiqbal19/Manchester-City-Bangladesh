@@ -1,9 +1,11 @@
 /* Import Fonts */
-@import url("https://fonts.googleapis.com/css2?family=Creepster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
 /* Main Styling */
 div.join-page {
   width: 100%;
   height: 100%;
+  position: relative;
+  background-color: var(--off-white);
 }
 div.join-page_cover {
   margin-top: calc(7rem + 5vh);
@@ -71,51 +73,131 @@ div.join-page_thirtyp {
   position: relative;
 }
 
-div.join-page_thirtyp img {
-  width: 150px;
-  height: 120px;
-  position: absolute;
-  right: 30%;
-  bottom: -105%;
-}
-
 div.join-page_thirtyp--text {
   width: 100%;
   height: 50%;
   /* border: 3px solid blue; */
 }
 div.join-page_thirtyp--text h3 {
-  font-size: calc(1rem + 2vh);
+  font-size: calc(1.5rem + 2vh);
   /* text-align: center; */
   margin: 3vh 3vh 3vh 6vh;
   color: var(--secondary-color);
 }
 div.join-page_thirtyp--text p {
-  font-size: calc(1rem + 1vw);
+  font-size: calc(1rem + 1.5vw);
   margin: 2vh 5vw;
   color: var(--secondary-color);
 }
 div.join-page_thirtyp--text p i {
   color: var(--quinary-color);
 }
+/* Discount  */
 div.discount-text {
-  color: red;
   /* border: 3px solid red; */
   width: 60%;
-  height: 30vh;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0rem 15vw 0rem 4vw;
-  background-image: url("https://i.ibb.co/z78xxQM/toppng-com-free-download-blue-paint-stroke-744x263.png");
-  background-repeat: no-repeat;
+  flex-direction: column;
+  position: relative;
 }
+div.discount-text img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
 div.discount-text p {
   color: var(--off-white);
-  font-size: calc(1.5vh + 1.5rem);
-  font-family: "Creepster", cursive;
+  /* color: var(--primary-color); */
+  font-size: calc(1.5vw + 1rem);
+  font-family: "Architects Daughter", cursive;
+  position: absolute;
+  padding: calc(5vw + 2rem);
+  top: 30%;
+  left: -5%;
 }
-/* For Mobile (up to 750px) */
+
+div.offers-list__join-page {
+  /* border: 3px solid black; */
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  display: flex;
+  justify-content: center;
+
+  flex-direction: column;
+  padding: 10vh 3vw 0rem 10vw;
+}
+div.offers-list__join-page p {
+  font-size: calc(1vw + 1rem);
+  margin: 5vh auto;
+  text-align: justify;
+  color: var(--secondary-color);
+}
+/* STEPS MEMBERSHIP */
+div.steps-membership__join-page {
+  width: 100%;
+  height: 100%;
+}
+
+div.steps-membership__join-page h2 {
+  text-align: center;
+  color: var(--secondary-color);
+  font-size: calc(3vh + 2rem);
+  margin: 10vh auto 6vh;
+  padding: 0rem 10vw;
+  position: relative;
+}
+div.steps-membership__join-page h2::before {
+  content: "";
+  position: absolute;
+  width: 15%;
+  height: 7px;
+  bottom: -40%;
+  left: 43%;
+  background-color: var(--secondary-color);
+}
+div.steps-membership__join-page h3 {
+  font-size: calc(2vw + 1rem);
+  text-align: center;
+}
+div.steps-membership {
+  width: 100%;
+  height: 100%;
+  background-color: var(--secondary-color);
+  margin: 5vh auto 0vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 10vh 10vw;
+}
+div.steps-membership p {
+  color: var(--tertiary-color);
+  font-size: calc(1.5vw + 1rem);
+  margin: 2vw;
+}
+div.steps-membership p span {
+  color: var(--primary-color);
+  /* font-weight: bold; */
+  text-decoration: underline;
+}
+div.steps-membership p a {
+  color: rgb(247, 50, 50);
+  text-decoration: none;
+}
+div.steps-membership p a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+div.steps-membership__join-page img {
+  width: 100%;
+}
+/* For Mobile (up to 750px) **************************************/
 @media screen and (max-width: 750px) {
   div.join-page_cover p {
     font-size: calc(3vh + 1.5rem);
