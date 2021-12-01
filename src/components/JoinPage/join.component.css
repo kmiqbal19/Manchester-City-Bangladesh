@@ -199,10 +199,169 @@ div.steps-membership__join-page img {
 }
 /* For Mobile (up to 750px) **************************************/
 @media screen and (max-width: 750px) {
+  /* COVER */
   div.join-page_cover p {
     font-size: calc(3vh + 1.5rem);
     bottom: 5%;
     padding: 6rem 2rem;
     background-color: rgba(0, 0, 0, 0.39);
+  }
+  /* OFFER-PAGE */
+  div.join-page_offer {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  div.join-page_offer h2 {
+    text-align: center;
+    color: var(--secondary-color);
+    font-size: calc(1vh + 2rem);
+    margin: 3.5vh auto;
+    padding: 0rem 5vw;
+    position: relative;
+  }
+  div.join-page_offer h2::before {
+    content: "";
+    position: absolute;
+    width: 15%;
+    height: 7px;
+    bottom: -30%;
+    left: 43%;
+    background-color: var(--secondary-color);
+  }
+  div.join-page_thirtyp {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+
+  div.join-page_thirtyp--text {
+    width: 100%;
+    height: 100%;
+  }
+  div.join-page_thirtyp--text h3 {
+    font-size: calc(1.5rem + 2vh);
+    text-align: center;
+    margin: 3rem;
+    color: var(--secondary-color);
+  }
+  div.join-page_thirtyp--text p {
+    font-size: calc(1rem + 1.5vw);
+    margin: 2vh 10vw;
+    color: var(--secondary-color);
+  }
+  div.join-page_thirtyp--text p i {
+    color: var(--quinary-color);
+  }
+  /* Discount  */
+  div.discount-text {
+    /* border: 3px solid red; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+  }
+  div.discount-text img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  div.discount-text p {
+    color: var(--off-white);
+    /* color: var(--primary-color); */
+    font-size: calc(1vw + 1rem);
+    font-family: "Architects Daughter", cursive;
+    position: absolute;
+    padding: calc(5vw + 2rem);
+    top: 30%;
+    left: -5%;
+  }
+
+  div.offers-list__join-page {
+    width: 100%;
+    height: 100%;
+    position: static;
+
+    display: flex;
+    justify-content: center;
+
+    flex-direction: column;
+    padding: 3vh 10vw;
+  }
+  div.offers-list__join-page p {
+    font-size: calc(1vh + 1rem);
+    margin: 3vh auto;
+    text-align: justify;
+    color: var(--secondary-color);
+  }
+  div.offers-list__join-page p i {
+    color: var(--quinary-color);
+  }
+  /* STEPS MEMBERSHIP */
+  div.steps-membership__join-page {
+    width: 100%;
+    height: 100%;
+  }
+
+  div.steps-membership__join-page h2 {
+    text-align: center;
+    color: var(--secondary-color);
+    font-size: calc(1.5vh + 2rem);
+    margin: 3vh auto;
+    padding: 0rem;
+    position: relative;
+  }
+  div.steps-membership__join-page h2::before {
+    content: "";
+    position: absolute;
+    width: 20%;
+    height: 7px;
+    bottom: -30%;
+    left: 43%;
+    background-color: var(--secondary-color);
+  }
+  div.steps-membership__join-page h3 {
+    font-size: calc(2vw + 1rem);
+    text-align: center;
+    margin-top: 7rem;
+  }
+  div.steps-membership {
+    width: 100%;
+    height: 100%;
+    background-color: var(--secondary-color);
+    margin: 3vh auto 0vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 6vh 6vw;
+  }
+  div.steps-membership p {
+    color: var(--tertiary-color);
+    font-size: calc(1.5vw + 1rem);
+    margin: 2vw;
+    text-align: justify;
+  }
+  div.steps-membership p span {
+    color: var(--primary-color);
+    /* font-weight: bold; */
+    text-decoration: underline;
+  }
+  div.steps-membership p a {
+    color: rgb(247, 50, 50);
+    text-decoration: none;
+  }
+  div.steps-membership p a:hover {
+    color: blue;
+    text-decoration: underline;
+  }
+  div.steps-membership__join-page img {
+    width: 100%;
   }
 }

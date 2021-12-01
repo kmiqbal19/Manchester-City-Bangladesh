@@ -10,7 +10,8 @@ function JoinPage() {
           alt="official membership cover"
         />
         <p>
-          <span>#TOGETHER</span> BECOME AN OFFICIAL MEMBER OF MANCHESTER CITY FC
+          <span>#MEMBERSHIP</span> BECOME AN OFFICIAL MEMBER OF MANCHESTER CITY
+          FC
         </p>
       </div>
       {/* OFFER */}
