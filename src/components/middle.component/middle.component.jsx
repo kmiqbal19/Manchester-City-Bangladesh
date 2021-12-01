@@ -21,7 +21,7 @@ function MiddleComponent() {
         </p>
         <p className="text-middle text-middle-3">
           If you want to be part of this supporters club branch, get the updated
-          news of every match,get membership card and all benifits of
+          news of every match, get membership card and all benifits of
           membership.
           <a
             className="join-link"

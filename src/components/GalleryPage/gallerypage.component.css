@@ -42,10 +42,11 @@ div.image_container-gallery img {
   transform: scaleY(0);
   transform-origin: bottom;
   transition: all 0.5s ease-in-out;
-  background-color: rgba(3, 191, 216, 0.445);
+  background-color: rgba(49, 52, 53, 0.753);
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 2rem;
 }
 div.image_container-gallery:hover img {
   transform: scale(1.1);
@@ -55,10 +56,12 @@ div.image_container-gallery:hover .image-description_gallery {
   transform: scaleY(1);
 }
 .image-description_gallery p {
-  font-size: 2rem;
+  font-size: calc(1.5vw + 0.5rem);
   color: var(--tertiary-color);
   text-align: center;
+  text-transform: uppercase;
 }
+/* FOR MOBILE */
 @media screen and (max-width: 750px) {
   div.image_container-gallery {
     width: calc(70vw + 8rem);

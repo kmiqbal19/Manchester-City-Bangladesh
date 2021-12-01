@@ -211,6 +211,7 @@ div.steps-one__picture img {
 div.steps-membership img.step-two_image {
   width: 25vw;
   height: 80vh;
+  border-radius: 20px;
 }
 /* For Mobile (up to 750px) **************************************/
 @media screen and (max-width: 750px) {

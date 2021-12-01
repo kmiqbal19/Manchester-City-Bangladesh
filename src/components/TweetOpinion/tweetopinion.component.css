@@ -59,7 +59,7 @@ div.tweet__container div p {
     height: 5px;
   }
   div.tweet__container {
-    padding: 4rem;
+    padding: 2rem;
   }
   div.tweet__container div {
     flex-direction: column;

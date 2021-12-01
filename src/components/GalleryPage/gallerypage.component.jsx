@@ -8,10 +8,7 @@ function GalleryPage() {
         <div key={index} className="image_container-gallery">
           <img src={data.picture} alt="gallery-img" />
           <div className="image-description_gallery">
-            <p>
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-              commodo ligula eget dolor.
-            </p>
+            <p>{data.description}</p>
           </div>
         </div>
       );

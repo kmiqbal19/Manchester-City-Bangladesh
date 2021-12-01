@@ -13,25 +13,28 @@ div.members-page__container {
   padding-bottom: 8rem;
 }
 div.members-container {
-  width: calc(25vw + 10rem);
-  height: calc(20vw + 10rem);
+  width: calc(25vw + 5rem);
+  height: calc(20vw + 5rem);
 
-  padding: 2rem;
+  padding: 2vw;
 }
 div.members-container img {
   width: 100%;
   height: 100%;
   object-fit: fill;
   border-radius: 10px;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
   transform-origin: center;
 }
 div.members-container:hover img {
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 @media screen and (max-width: 750px) {
   div.members-container {
     width: calc(60vw + 10rem);
     height: calc(20vh + 10rem);
+  }
+  div.members-container:hover img {
+    transform: scale(1.1);
   }
 }

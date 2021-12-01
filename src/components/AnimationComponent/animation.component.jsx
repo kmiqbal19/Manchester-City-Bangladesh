@@ -2,6 +2,8 @@ import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import "./animation.component.css";
+import ball from "../../assets/ball.png";
+import palyer from "../../assets/player.png";
 function AnimationComponent() {
   gsap.registerPlugin(ScrollTrigger);
   let animationContainerRef = useRef(null);
@@ -49,13 +51,15 @@ function AnimationComponent() {
   return (
     <div className="animation_container" ref={animationContainerRef}>
       <div className="player_animation">
-        <img
+        <img src={palyer} alt="players" />
+        {/* <img
           src="https://i.ibb.co/4JymwRp/kisspng-manchester-city-f-c-football-player-jersey-team-s-sergio-aguero-5b230d52470751-1020443715290.png"
           alt="players"
-        />
+        /> */}
       </div>
       <div className="ball_animation">
-        <img src="https://i.ibb.co/sjF8KL1/clipart1013350.png" alt="players" />
+        <img src={ball} alt="players" />
+        {/* <img src="https://i.ibb.co/sjF8KL1/clipart1013350.png" alt="players" /> */}
       </div>
     </div>
   );

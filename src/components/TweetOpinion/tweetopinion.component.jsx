@@ -25,7 +25,7 @@ function SupportersTweet() {
             <p>
               This group is very active and all the members here are very
               friendly and helpful to each other.I am very happy to be a part of
-              them
+              them.
             </p>
           </div>
         </div>
