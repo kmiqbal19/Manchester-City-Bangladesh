@@ -29,7 +29,8 @@ function JoinPage() {
             </p>
             <p>
               {" "}
-              <i class="fas fa-certificate"></i> 2x city crest stickers
+              <i class="fas fa-certificate"></i> 2x city crest stickers and many
+              more...
             </p>
           </div>
         </div>
@@ -77,17 +78,43 @@ function JoinPage() {
           <p>
             {" "}
             <span>Step 1:</span> If you are already a member then just log in to
-            your account Or if are new here <a href="dfsd">Register here</a>.
+            your account Or if are new here then '
+            <a href="https://tickets.mancity.com/">Register here</a>'. Step one
+            is shown here with images below:
           </p>
+          <div className="steps-one__picture">
+            <img
+              src="https://i.ibb.co/12Dbx6r/Whats-App-Image-2021-12-01-at-03-20-42.jpg"
+              alt="step-1"
+            />
+            <img
+              src="https://i.ibb.co/jrp975R/Whats-App-Image-2021-12-01-at-03-20-43-2.jpg"
+              alt="step-1"
+            />
+            <img
+              src="https://i.ibb.co/wh8FFmY/Whats-App-Image-2021-12-01-at-03-20-43-3.jpg"
+              alt="step-1"
+            />
+          </div>
+
           <p>
             {" "}
-            <span>Step 2:</span> After completing registration click the link
-            below and join the club .
+            <span>Step 2:</span> After completing registration, Click the{" "}
+            <a href="https://www.mancity.com/supporters-clubs/chittagong-2645">
+              link
+            </a>{" "}
+            to join the club.
           </p>
+          <img
+            className="step-two_image"
+            src="https://i.ibb.co/VTs0SJy/Whats-App-Image-2021-12-01-at-03-22-04.jpg"
+            alt="step-2"
+          />
           <p>
             {" "}
             <span>Step 3:</span> If you face any problem ,don’t hesitate to
-            contact our Membership secretary .
+            contact our{" "}
+            <a href="mailto:dipteshmcfc@gmail.com">Membership secretary</a>.
           </p>
         </div>
         <img

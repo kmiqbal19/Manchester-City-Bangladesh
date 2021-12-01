@@ -31,7 +31,7 @@ div.logo-headline {
   text-transform: uppercase;
   color: var(--secondary-color);
   font-size: calc(3rem + 2vh);
-  font-family: "Ostwald", sans-serif;
+  font-family: "Gotham Narrow", sans-serif;
   margin-right: 3rem;
   margin-left: 3rem;
 }
