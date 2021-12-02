@@ -5,15 +5,15 @@ function ChairmanSection() {
     <section className="chairman-section">
       <div className="chairman-speech">
         <p>
-          Our main objective is to build a strong club community through, where
-          any of our Citizens can get all kind of opportunities and establishing
-          a deep relationship among all the fans by publishing City related news
-          and informations over social media.
+          Our main objective is to build a strong club community, where every
+          Citizens can get all kind of opportunities and establishing a deep
+          relationship between all the fans and informations over social media
+          by publishing City related news.
         </p>
         <p>
           We want to move forward with the determination to do something better
-          in the future.the future will be planned keeping in mind the
-          advantages and disadvantages of the fans.
+          in the future. The future will be planned according to the
+          recommendations of fans.
         </p>
       </div>
       <div className="chairman-image__container">

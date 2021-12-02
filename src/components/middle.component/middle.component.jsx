@@ -9,15 +9,15 @@ function MiddleComponent() {
         </p>
         <p className="text-middle text-middle-1">
           We are one of the 300+ Supporters Club of Manchester City and very
-          active among the clubs in Bangladesh.It was organized in 2021.We do
+          active among the clubs in Bangladesh. It was organized in 2021. We do
           match screening and quiz contests in every match.More than 1000 of our
           members are active on Facebook and more than 30 of them are membership
           card holders.
         </p>
         <p className="text-middle text-middle-2">
           We have our official Facebook, Instagram and Twitter account to
-          interact our supporters.Our mission to take this official branch at
-          highest level in Bangladesh and globally.
+          interact with our supporters. Our mission is to take this official
+          branch at highest level in Bangladesh and globally.
         </p>
         <p className="text-middle text-middle-3">
           If you want to be part of this supporters club branch, get the updated
