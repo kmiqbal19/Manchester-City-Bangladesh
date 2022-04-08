@@ -34,3 +34,9 @@ div.ball_animation img {
     height: 70px;
   }
 }
+@media screen and (min-width: 800px) and (max-width: 1199px) {
+  div.player_animation img {
+    width: 200%;
+    height: 90%;
+  }
+}

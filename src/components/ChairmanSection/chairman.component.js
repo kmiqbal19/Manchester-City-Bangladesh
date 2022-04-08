@@ -22,7 +22,9 @@ function ChairmanSection() {
           alt="chairman"
         />
         <p className="chairman-name">Abir Emon</p>
-        <p className="chairman-text">Chairman of ManCity Bangladesh</p>
+        <p className="chairman-text">
+          Genenral Secretary of ManCity Bangladesh
+        </p>
       </div>
       <div className="donation_container">
         <p id="donation-text">
