@@ -4,9 +4,7 @@ function MiddleComponent() {
   return (
     <div className="middle-part">
       <div className="middle-support">
-        <p className="headline-middle">
-          OFFICIAL SUPPORTERS CLUB BANGLADESH - CHITTAGONG BRANCH
-        </p>
+        <p className="headline-middle">OFFICIAL SUPPORTERS CLUB CHITTAGONG</p>
         <p className="text-middle text-middle-1">
           We are one of the 300+ Supporters Club of Manchester City and very
           active among the clubs in Bangladesh. It was organized in 2021. We do

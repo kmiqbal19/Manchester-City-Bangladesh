@@ -34,6 +34,7 @@ div.logo-headline {
   font-family: "Gotham Narrow", sans-serif;
   margin-right: 3rem;
   margin-left: 3rem;
+  letter-spacing: 0.5rem;
 }
 /* NavLists */
 #main-nav ul {

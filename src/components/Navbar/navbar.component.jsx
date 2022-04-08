@@ -33,7 +33,7 @@ function NavBar({ history }) {
         <div className="logo-manchester">
           <img className="logo" src={logo} alt="manchester-logo" />
           <div className="logo-headline">
-            <p>manchester city bangladesh</p>
+            <p>m.c.f.c.b.d</p>
           </div>
         </div>
         <ul
