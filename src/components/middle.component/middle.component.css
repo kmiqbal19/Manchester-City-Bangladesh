@@ -84,7 +84,7 @@ div.middle-img-description p {
   font-size: calc(0.8vw + 1rem);
   color: var(--secondary-color);
 } */
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 800px) {
   .middle-part {
     flex-direction: column;
     height: 100%;

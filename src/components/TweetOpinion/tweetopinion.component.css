@@ -60,6 +60,12 @@ div.tweet__container div p {
   font-size: calc(1vw + 1.5rem);
   color: var(--tertiary-color);
 }
+@media screen and (max-width: 1000px) {
+  div.tweet__container div p {
+    font-size: calc(1vw + 1rem);
+  }
+}
+
 @media screen and (max-width: 750px) {
   div.supporters-tweet {
     width: 100%;
@@ -76,6 +82,7 @@ div.tweet__container div p {
   }
   div.tweet__container div {
     flex-direction: column;
+    justify-content: center;
     padding: 4rem;
     box-shadow: 5px 5px 15px grey;
   }

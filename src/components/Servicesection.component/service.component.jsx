@@ -10,8 +10,8 @@ function ServiceSection() {
       <div className="service-item trophy">
         <FaTrophy className="fa-trophy" />
         <p className="service-text">
-          <NavLink to="/join">JOIN</NavLink> To get official membership join our
-          branch
+          <NavLink to="/join">#JOIN</NavLink> To get official membership join
+          our branch
         </p>
       </div>
       <div className="service-item camera">
@@ -24,7 +24,7 @@ function ServiceSection() {
       <div className="service-item flag">
         <FaFlag className="fa-flag" />
         <p className="service-text">
-          <a href="https://www.mancity.com/fixtures">FIXTURES </a>
+          <a href="https://www.mancity.com/fixtures">#FIXTURES </a>
           Premier League Champions League FA CUP
         </p>
       </div>
