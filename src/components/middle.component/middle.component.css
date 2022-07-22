@@ -7,6 +7,9 @@
 .middle-support {
   width: 60%;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .headline-middle {
   font-size: calc(1.5rem + 2vw);
@@ -111,10 +114,10 @@ div.middle-img-description p {
     padding: 1rem 3rem 1rem;
   }
 }
-@media screen and (min-width: 1920px) {
+/* @media screen and (min-width: 1920px) {
   div.middle-support {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
-}
+} */

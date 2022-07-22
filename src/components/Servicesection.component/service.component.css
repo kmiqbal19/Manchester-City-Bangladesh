@@ -15,11 +15,12 @@ section.service-section h1 {
 section.service-section h1::before {
   content: "";
   position: absolute;
-  bottom: 0;
+  bottom: -2rem;
   left: 50%;
+  transform: translateX(-50%);
   width: 30%;
   height: 7px;
-  background-color: var(--secondary-color);
+  background-color: var(--quinary-color);
 }
 div.service-item {
   text-align: center;
@@ -28,18 +29,20 @@ div.service-item {
   border-radius: 1px;
   margin: calc(1vw + 1rem);
   user-select: none;
-  transition: border 0.5s ease-in-out;
+  transition: border 0.3s ease;
   box-shadow: 3px 3px 15px rgb(177, 174, 174);
+  border-radius: 2rem;
 }
 div.service-item:hover {
   border: 2px solid var(--secondary-color);
 }
 .fa-trophy,
-.fa-camera-retro,
+.fa-gallery,
 .fa-flag {
   font-size: calc(5rem + 1vw);
-  padding: calc(1.5vw + 1rem);
-  color: var(--quinary-color);
+  margin: calc(1vw + 1rem);
+  /* color: var(--quinary-color); */
+  fill: var(--quinary-color);
 }
 .service-text {
   font-size: calc(1vw + 1rem);
@@ -73,6 +76,6 @@ p.service-text a:hover {
   }
   section.service-section h1::before {
     height: 5px;
-    left: 40%;
+    bottom: 0;
   }
 }

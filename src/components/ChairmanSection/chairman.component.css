@@ -9,7 +9,10 @@ section.chairman-section {
 div.chairman-speech {
   width: 60%;
   height: 100%;
-  padding: 6rem 2rem 1rem;
+  padding: 2rem 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 div.chairman-speech p {
   color: var(--tertiary-color);
@@ -113,11 +116,11 @@ div.chairman-image__container img {
   }
 }
 @media screen and (min-width: 1920px) {
-  div.chairman-speech {
+  /* div.chairman-speech {
     display: flex;
     flex-direction: column;
     justify-content: center;
-  }
+  } */
   div.chairman-speech p {
     font-size: calc(1vw + 1.5rem);
     line-height: 1.5;
