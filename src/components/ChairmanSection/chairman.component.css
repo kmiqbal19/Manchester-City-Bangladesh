@@ -34,15 +34,17 @@ div.chairman-image__container img {
 }
 .chairman-name {
   color: var(--tertiary-color);
-  font-size: 2rem;
+  font-size: calc(1rem + 1vw);
+  margin: 0.5vw 0rem;
 }
 .chairman-text {
   color: var(--tertiary-color);
-  font-size: 1.5rem;
+  font-size: calc(1rem + 0.5vw);
 }
 #donation-text {
   color: red;
-  font-size: 1.5rem;
+  font-size: calc(1.3rem + 0.5vw);
+  margin-top: 1rem;
 }
 #donation-text span {
   text-decoration: underline;
@@ -108,5 +110,20 @@ div.chairman-image__container img {
   }
   #donation-text {
     font-size: 1rem;
+  }
+}
+@media screen and (min-width: 1920px) {
+  div.chairman-speech {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  div.chairman-speech p {
+    font-size: calc(1vw + 1.5rem);
+    line-height: 1.5;
+  }
+  div.chairman-image__container img {
+    width: calc(350px + 3vw);
+    height: calc(350px + 3vw);
   }
 }
