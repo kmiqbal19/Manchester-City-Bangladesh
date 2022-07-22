@@ -44,21 +44,16 @@ div.footer_bottom a:hover {
   color: var(--tertiary-color);
 }
 div.footer_bottom p {
-  font-size: 1.5rem;
+  font-size: calc(1rem + 0.5vw);
   color: var(--secondary-color);
 }
-/* .copyright {
-  margin-left: 20rem;
-}
-.supporter-mobile_text {
-  margin-left: 2rem;
-} */
+
 #website_built_text {
-  font-size: 1.2rem;
+  font-size: calc(1rem + 0.3vw);
   padding: 0.5rem;
 }
 #website_built_text a {
-  font-size: 1.5rem;
+  font-size: calc(1rem + 0.5vw);
   text-shadow: 0px 0px 10px rgb(183, 0, 255);
 }
 .fa-facebook-f {
