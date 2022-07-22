@@ -6,14 +6,14 @@ import { gsap } from "gsap";
 import logo from "../../assets/manchester-logo.png";
 import "./navbar.component.css";
 function NavBar({ history }) {
+  const [hamClicked, setHamClicked] = useState(false);
+  const clickHandler = () => setHamClicked(!hamClicked);
   useEffect(() => {
     history.listen(() => {
       window.scrollTo(0, 0);
       return setHamClicked(!hamClicked);
     });
   });
-  const [hamClicked, setHamClicked] = useState(false);
-  const clickHandler = () => setHamClicked(!hamClicked);
   const MenuLists = menuLists.map((list, index) => {
     return (
       <li key={index} className="nav-list--item">
@@ -27,6 +27,7 @@ function NavBar({ history }) {
       </li>
     );
   });
+
   return (
     <>
       <nav id="main-nav">
