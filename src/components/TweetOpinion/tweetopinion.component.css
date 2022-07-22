@@ -4,9 +4,9 @@ div.supporters-tweet {
 
   background-image: linear-gradient(
       45deg,
-      rgba(255, 255, 255, 0.735),
-      rgba(108, 171, 221, 0.5),
-      rgba(255, 255, 255, 0.702)
+      rgba(46, 44, 44, 0.742),
+      rgba(108, 171, 221, 0.7),
+      rgba(44, 43, 43, 0.715)
     ),
     url("../../assets/tweetBg.jpg");
   background-size: cover;
@@ -18,16 +18,17 @@ div.supporters-tweet h1 {
   text-align: center;
   margin: 0rem auto 8rem;
   font-weight: 600;
-  color: var(--secondary-color);
+  color: var(--tertiary-color);
 }
 div.supporters-tweet h1::before {
   content: "";
   position: absolute;
-  bottom: -40%;
-  left: 40%;
-  width: 20%;
+  bottom: -4rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 10%;
   height: 7px;
-  background-color: var(--secondary-color);
+  background-color: var(--tertiary-color);
 }
 div.tweet__container {
   width: 100%;
@@ -40,21 +41,23 @@ div.tweet__container div {
   width: 100%;
   height: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  padding: 10rem;
-  box-shadow: 5px 5px 15px grey;
+  padding: 5rem 10rem;
+  box-shadow: 10px 10px 25px var(--primary-color);
+  border-radius: 2rem;
 }
 div.tweet__container div img {
-  width: 150px;
-  height: 150px;
+  width: calc(2vw + 150px);
+  height: calc(2vw + 150px);
   border-radius: 50%;
   /* padding: 2rem; */
   margin: 3rem;
   object-fit: cover;
 }
 div.tweet__container div p {
-  font-size: calc(1vw + 1rem);
+  padding: 0rem 2rem;
+  font-size: calc(1vw + 1.5rem);
   color: var(--tertiary-color);
 }
 @media screen and (max-width: 750px) {
