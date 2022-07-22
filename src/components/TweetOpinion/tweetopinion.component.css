@@ -1,12 +1,22 @@
 div.supporters-tweet {
   width: 100%;
   height: 80vh;
+
+  background-image: linear-gradient(
+      45deg,
+      rgba(255, 255, 255, 0.735),
+      rgba(108, 171, 221, 0.5),
+      rgba(255, 255, 255, 0.702)
+    ),
+    url("../../assets/tweetBg.jpg");
+  background-size: cover;
+  padding-top: 6rem;
 }
 div.supporters-tweet h1 {
   font-size: calc(2rem + 2vw);
   position: relative;
   text-align: center;
-  margin: 6rem auto 8rem;
+  margin: 0rem auto 8rem;
   font-weight: 600;
   color: var(--secondary-color);
 }
