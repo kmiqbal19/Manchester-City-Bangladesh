@@ -40,10 +40,10 @@ code {
 } */
 ::-webkit-scrollbar {
   width: 10px;
-  background: transparent;
+  background-color: #00285e;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: rgba(76, 76, 82, 0.322);
+  background-color: #6caddf;
   border-radius: 5px;
 }
 ::-webkit-scrollbar-thumb:hover {
