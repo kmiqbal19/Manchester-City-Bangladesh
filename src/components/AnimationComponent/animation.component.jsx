@@ -14,48 +14,48 @@ function AnimationComponent() {
         gsap.fromTo(
           ".player_animation",
           { x: -150 },
-          { x: 200, ease: "ease", duration: 5 }
+          { x: 200, ease: "ease", duration: 5, delay: 0.5 }
         );
         gsap.fromTo(
           ".ball_animation",
           { x: 700 },
-          { x: 200, ease: "bounce", duration: 5 }
+          { x: 200, ease: "bounce", duration: 5, delay: 0.5 }
         );
       },
       "(min-width: 751px) and (max-width: 1199px)": function () {
         gsap.fromTo(
           ".player_animation",
           { x: -150 },
-          { x: 300, ease: "ease", duration: 5 }
+          { x: 300, ease: "ease", duration: 5, delay: 0.5 }
         );
         gsap.fromTo(
           ".ball_animation",
           { x: 800 },
-          { x: 600, ease: "bounce", duration: 5 }
+          { x: 600, ease: "bounce", duration: 5, delay: 0.5 }
         );
       },
       "(min-width: 1200px) and (max-width: 1900px)": function () {
         gsap.fromTo(
           ".player_animation",
           { x: -150 },
-          { x: 1050, ease: "ease", duration: 5 }
+          { x: 1050, ease: "ease", duration: 5, delay: 0.5 }
         );
         gsap.fromTo(
           ".ball_animation",
           { x: 1500 },
-          { x: 900, ease: "bounce", duration: 5 }
+          { x: 900, ease: "bounce", duration: 5, delay: 0.5 }
         );
       },
       "(min-width: 1901px) and (max-width: 3000px)": function () {
         gsap.fromTo(
           ".player_animation",
           { x: -950 },
-          { x: 850, ease: "ease", duration: 5 }
+          { x: 850, ease: "ease", duration: 5, delay: 0.5 }
         );
         gsap.fromTo(
           ".ball_animation",
           { x: 3500 },
-          { x: 1300, ease: "bounce", duration: 5 }
+          { x: 1300, ease: "bounce", duration: 5, delay: 0.5 }
         );
       },
     });
