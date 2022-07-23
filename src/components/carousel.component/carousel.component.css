@@ -24,12 +24,13 @@ div.slide-image img {
   color: var(--tertiary-color);
   cursor: pointer;
   user-select: none;
-  transition: all 0.6s ease-in-out;
-  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  /* opacity: 0; */
   background-color: #6caddf88;
   border-radius: 3px;
-  padding: 1.5rem;
+  padding: 0.5rem;
 }
+
 .fa-chevron-left {
   position: absolute;
   cursor: pointer;
@@ -38,13 +39,20 @@ div.slide-image img {
   top: 45%;
   left: 50px;
   font-size: 5rem;
-  transition: all 0.6s ease-in-out;
-  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  /* opacity: 0; */
   background-color: #6caddf88;
   border-radius: 3px;
-  padding: 1.5rem;
+  padding: 0.5rem;
 }
-
+.fa-chevron-right:hover,
+.fa-chevron-left:hover {
+  background-color: var(--quinary-color);
+}
+.fa-chevron-right:active,
+.fa-chevron-left:active {
+  transform: scale(0.8);
+}
 .image-slider__container:hover .fas {
   opacity: 1;
 }

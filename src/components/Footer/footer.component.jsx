@@ -1,5 +1,11 @@
 import React from "react";
 import "./footer.component.css";
+import {
+  FaFacebook,
+  FaInstagramSquare,
+  FaDiscord,
+  FaTwitterSquare,
+} from "react-icons/fa";
 function Footer() {
   return (
     <section className="footer">
@@ -28,16 +34,16 @@ function Footer() {
       <div className="footer_bottom">
         <div>
           <a href="https://www.facebook.com/ManCityBan">
-            <i class="fab fa-facebook-f"></i>
+            <FaFacebook className="fa-facebook-f" />
           </a>
           <a href="https://www.instagram.com/mancityban/">
-            <i class="fab fa-instagram"></i>
+            <FaInstagramSquare className="fa-instagram" />
           </a>
           <a href="https://www.twitter.com/mancity17bd">
-            <i class="fab fa-twitter-square"></i>
+            <FaTwitterSquare className="fa-twitter-square" />
           </a>
           <a href="https://discord.gg/G4RAbH8h">
-            <i class="fab fa-discord"></i>
+            <FaDiscord className="fa-discord" />
           </a>
         </div>
         <p className="copyright">

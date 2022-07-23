@@ -57,9 +57,4 @@ export const membersList = [
       "https://i.ibb.co/ncrGdfz/Whats-App-Image-2021-11-21-at-22-10-14.jpg",
     memberName: "yasin",
   },
-  {
-    memberImage:
-      "https://i.ibb.co/ncrGdfz/Whats-App-Image-2021-11-21-at-22-10-14.jpg",
-    memberName: "yasin",
-  },
 ];

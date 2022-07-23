@@ -73,6 +73,17 @@ div.chairman-image__container img {
   bottom: 10%;
   left: 5%;
 }
+/* ////////// RESPONSIVE ///////// */
+@media screen and (min-width: 1920px) {
+  div.chairman-speech p {
+    font-size: calc(1vw + 1.5rem);
+    line-height: 1.5;
+  }
+  div.chairman-image__container img {
+    width: calc(350px + 3vw);
+    height: calc(350px + 3vw);
+  }
+}
 @media screen and (max-width: 750px) {
   section.chairman-section {
     width: 100%;
@@ -88,9 +99,10 @@ div.chairman-image__container img {
     color: var(--tertiary-color);
     font-size: calc(1vw + 1rem);
     padding: 1rem 2rem;
+    text-align: center;
   }
   div.chairman-speech p:last-child {
-    padding: 1rem 2rem 2rem;
+    padding: 1rem 2rem 5rem;
   }
   div.chairman-image__container {
     width: 100%;
@@ -114,20 +126,5 @@ div.chairman-image__container img {
   }
   #donation-text {
     font-size: 1.5rem;
-  }
-}
-@media screen and (min-width: 1920px) {
-  /* div.chairman-speech {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  } */
-  div.chairman-speech p {
-    font-size: calc(1vw + 1.5rem);
-    line-height: 1.5;
-  }
-  div.chairman-image__container img {
-    width: calc(350px + 3vw);
-    height: calc(350px + 3vw);
   }
 }

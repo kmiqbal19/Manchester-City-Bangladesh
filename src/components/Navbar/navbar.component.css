@@ -30,7 +30,7 @@ div.logo-manchester {
 div.logo-headline {
   text-transform: uppercase;
   color: var(--secondary-color);
-  font-size: calc(3rem + 2vh);
+  font-size: calc(3rem + 2.5vh);
   font-family: "Gotham Narrow", sans-serif;
   margin-right: 3rem;
   margin-left: 3rem;
@@ -87,7 +87,17 @@ div.hamburger {
   display: none;
 }
 
-/* Responsive for 750px *****************************/
+/* Responsive  *****************************/
+@media screen and (min-width: 751px) and (max-width: 1199px) {
+  ul.nav-list__container {
+    position: relative;
+    right: 5%;
+  }
+  #main-nav ul li {
+    margin-left: 1.5vw;
+    font-size: calc(1rem + 1vh);
+  }
+}
 @media screen and (max-width: 750px) {
   nav#main-nav {
     overflow: hidden;
@@ -170,24 +180,32 @@ div.hamburger {
     letter-spacing: 2px;
   }
   div.logo-headline {
-    font-size: calc(1.5rem + 1vh);
+    font-size: calc(3rem + 1vh);
   }
 }
+
 @media screen and (max-width: 450px) {
+  #main-nav {
+    height: 11rem;
+  }
   div.logo-headline {
-    font-size: calc(1.2rem + 1vh);
+    font-size: calc(2rem + 1vh);
   }
   div.hamburger {
-    top: 4%;
+    top: 4.5%;
+  }
+  .logo {
+    width: calc(4rem + 2vw);
+    height: calc(4rem + 2vw);
   }
 }
-@media screen and (min-width: 751px) and (max-width: 1199px) {
-  ul.nav-list__container {
-    position: relative;
-    right: 5%;
+@media screen and (max-width: 350px) {
+  div.logo-headline {
+    font-size: calc(1.5rem + 1vh);
   }
-  #main-nav ul li {
-    margin-left: 1.5vw;
-    font-size: calc(1rem + 1vh);
+
+  .logo {
+    width: calc(4rem + 2vw);
+    height: calc(4rem + 2vw);
   }
 }

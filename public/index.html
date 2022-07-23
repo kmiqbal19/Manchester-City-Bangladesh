@@ -9,7 +9,7 @@
       name="description"
       content="Web site created using create-react-app"
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -24,14 +24,86 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <script
-      src="https://kit.fontawesome.com/4cb7385aa0.js"
-      crossorigin="anonymous"
-    ></script>
+
     <title>ManCity Bangladesh</title>
+    <style>
+      .preloader {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: #6caddf;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 100;
+      }
+      .preloader__logo {
+        width: calc(25vw + 5rem);
+        height: calc(25vw + 5rem);
+        position: absolute;
+      }
+      .preloader__bar {
+        width: calc(25vw + 5rem);
+        height: 10px;
+        background-color: #00285e;
+        transition: transform 2s cubic-bezier(0.215, 0.61, 0.355, 1);
+        transform: scaleX(0);
+        transform-origin: left;
+        position: absolute;
+        bottom: 10%;
+      }
+      .finished {
+        transform: scaleX(1);
+      }
+      .displayNone {
+        display: none;
+      }
+      @media screen and (min-width: 1920px) {
+        .preloader__logo {
+          width: calc(20vw + 5rem);
+          height: calc(20vw + 5rem);
+        }
+        .preloader__bar {
+          width: calc(20vw + 5rem);
+          height: 15px;
+          bottom: 20%;
+        }
+      }
+      @media screen and (max-width: 1000px) {
+        .preloader__logo {
+          width: 20rem;
+          height: 20rem;
+        }
+        .preloader__bar {
+          width: 20rem;
+          height: 8px;
+          bottom: 30%;
+        }
+      }
+      @media screen and (max-width: 550px) {
+        .preloader__logo {
+          width: 20rem;
+          height: 20rem;
+        }
+        .preloader__bar {
+          width: 20rem;
+          bottom: 30%;
+        }
+      }
+    </style>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div class="preloader">
+      <img
+        class="preloader__logo"
+        src="./preloader-logo.png"
+        alt="mcfcbd-logo"
+      />
+      <div class="preloader__bar"></div>
+    </div>
     <div id="root"></div>
     <!--
       This HTML file is a template.
@@ -43,5 +115,16 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script>
+      window.addEventListener("DOMContentLoaded", function () {
+        document.querySelector(".preloader__bar").classList.add("finished");
+      });
+      window.addEventListener("load", function () {
+        // setTimeout(() => {
+        document.querySelector(".preloader").classList.add("displayNone");
+        console.log("all contents loaded....");
+        // }, 300);
+      });
+    </script>
   </body>
 </html>

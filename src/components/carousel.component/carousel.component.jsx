@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./carousel.component.css";
 import { imageSlides } from "./imageSlides";
 import AnimationComponent from "../AnimationComponent/animation.component";
+import { FaChevronCircleLeft, FaChevronCircleRight } from "react-icons/fa";
 function Carousel() {
   const [current, setCurrent] = useState(0);
   const length = imageSlides.length;
@@ -38,8 +39,9 @@ function Carousel() {
   return (
     <div className="image-slider__container">
       <AnimationComponent />
-      <i class="fas fa-chevron-right" onClick={nextSlide}></i>
-      <i class="fas fa-chevron-left" onClick={prevSlide}></i>
+      <FaChevronCircleLeft className="fa-chevron-left" onClick={prevSlide} />
+      <FaChevronCircleRight className="fa-chevron-right" onClick={nextSlide} />
+
       <Slides />
     </div>
   );
