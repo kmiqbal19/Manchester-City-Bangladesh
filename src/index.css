@@ -35,7 +35,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   width: 10px;
   background: transparent;
 }
@@ -45,4 +45,4 @@ code {
 }
 ::-webkit-scrollbar-thumb:hover {
   background-color: rgba(76, 76, 82, 0.986);
-}
+} */
