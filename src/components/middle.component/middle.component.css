@@ -80,10 +80,12 @@ div.middle-img-description p {
 .join-link {
   color: blue;
 }
-/* .fa-location-arrow {
-  font-size: calc(0.8vw + 1rem);
-  color: var(--secondary-color);
-} */
+@media screen and (max-width: 1500px) {
+  .headline-middle {
+    font-size: calc(2rem + 1.5vw);
+    margin-top: 5rem;
+  }
+}
 @media screen and (max-width: 800px) {
   .middle-part {
     flex-direction: column;
@@ -114,10 +116,3 @@ div.middle-img-description p {
     padding: 1rem 3rem 1rem;
   }
 }
-/* @media screen and (min-width: 1920px) {
-  div.middle-support {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-} */
