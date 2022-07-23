@@ -12,7 +12,7 @@
 }
 div.slide-image img {
   object-fit: cover;
-  width: calc(100vw - 10px);
+  width: 100vw;
   height: 100%;
 }
 

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "./carousel.component.css";
 import { imageSlides } from "./imageSlides";
 import AnimationComponent from "../AnimationComponent/animation.component";
